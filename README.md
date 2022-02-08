@@ -4,7 +4,7 @@
 
 ## Посмотреть онлайн:
 
-[Vercel App](https://my-first-react-app-sandy.vercel.app "Нажми меня")
+[Vercel App](https://react-app-six-pi.vercel.app "Нажми меня")
 
 ## Доступные скрипты:
 ### `npm start`
