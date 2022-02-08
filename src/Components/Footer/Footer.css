@@ -1,0 +1,11 @@
+.appFooter {
+    position:absolute;
+    width: 300px;
+    height: 900px;
+    bottom: 0;
+    left: 0;
+}
+.footerBody {
+    padding: 50px;
+    background-color: aqua;
+}
