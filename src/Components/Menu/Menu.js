@@ -1,8 +1,7 @@
-import { Link } from "react-router-dom";
 import { About } from "../Index";
 import Typewriter from 'typewriter-effect'
 import './Menu.css'
-import styled from "styled-components";
+import { NavLink, Link } from "react-router-dom";
 
 export default function Menu() {
     return (
@@ -23,8 +22,8 @@ export default function Menu() {
         />
         </div>
         <ul>
-               <li><Link to="/">Home</Link></li>
-               <li><Link to="/About">About Us</Link></li> 
+               <li><NavLink to="/">Home</NavLink></li>
+               <li><NavLink to="/About">About Us</NavLink></li> 
               
         </ul>
             </nav>
