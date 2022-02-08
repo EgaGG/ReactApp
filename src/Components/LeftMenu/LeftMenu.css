@@ -1,8 +1,22 @@
 .leftMenuBody {
-    background-color: black;
-    height: 400px;
+    background-color: #3f4148;
+    width: 250px;
+    float: left;
+    height: 100vh;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.521);
 }
+.leftMenuList {
+    list-style: none;
+}
+.leftMenuList a {
+    text-decoration: none;
+    color: azure;
+    padding: 30px;
 
-li {
-    justify-content:flex-start;
+}
+.active {
+    font-weight: bold;
+}
+svg {
+    font-size: 12px;
 }

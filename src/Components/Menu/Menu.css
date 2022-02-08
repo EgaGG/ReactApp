@@ -20,11 +20,11 @@
     color: #f5f5f5;
 }
 
-ul li {
+.menuUl li {
     display: inline;
     margin: 10px;
 }
-a {
+.menuUl a {
     text-decoration: none;
     font-size: 17px;
     color: #f5f5f5;
