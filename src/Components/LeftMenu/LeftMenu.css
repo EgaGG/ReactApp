@@ -1,0 +1,8 @@
+.leftMenuBody {
+    background-color: black;
+    height: 400px;
+}
+
+li {
+    justify-content:flex-start;
+}

@@ -1,7 +1,9 @@
-import { About } from "../Index";
 import Typewriter from 'typewriter-effect'
 import './Menu.css'
 import { NavLink, Link } from "react-router-dom";
+import Web3 from "web3";
+import Web3Modal from "web3modal";
+
 
 const activeNavBar = ({isActive}) => isActive ? 'activeNavBar' : '';
 
@@ -28,6 +30,7 @@ export default function Menu() {
                <li><NavLink to="/About" className={activeNavBar}>About Us</NavLink></li> 
               
         </ul>
+        
             </nav>
     );
 }
