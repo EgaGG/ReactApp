@@ -3,6 +3,8 @@ import Typewriter from 'typewriter-effect'
 import './Menu.css'
 import { NavLink, Link } from "react-router-dom";
 
+const activeNavBar = ({isActive}) => isActive ? 'activeNavBar' : '';
+
 export default function Menu() {
     return (
             <nav className="menuBody">
@@ -22,8 +24,8 @@ export default function Menu() {
         />
         </div>
         <ul>
-               <li><NavLink to="/">Home</NavLink></li>
-               <li><NavLink to="/About">About Us</NavLink></li> 
+               <li><NavLink to="/" className={activeNavBar}>Home</NavLink></li>
+               <li><NavLink to="/About" className={activeNavBar}>About Us</NavLink></li> 
               
         </ul>
             </nav>
