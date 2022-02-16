@@ -1,0 +1,23 @@
+.clickerMenu {
+    display: flex;
+    background-color: #90e09d;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+}
+.clickerLogo {
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.currentMoney {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.moneyBag {
+    background: none;
+    border: 1;
+    border-radius: 180px;
+}
+.svgMoneyBag {
+    font-size: 300px;
+}
